@@ -1,0 +1,24 @@
+.all-country-row::-webkit-scrollbar
+{
+ width: 20px;
+}
+.all-country-row::-webkit-scrollbar-thumb
+{
+    background-color: bisque;
+    border-radius: 7px;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    cursor: pointer;
+    -o-border-radius: 7px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+.all-country-row::-webkit-scrollbar-track
+{
+    background-color: #ddd;
+    border-left: 9.5px solid white;
+    border-right: 9.5px solid white;
+}
